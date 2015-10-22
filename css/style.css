@@ -1,0 +1,64 @@
+html {
+  box-sizing: border-box;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+body {
+	background-color: lightblue;
+}	
+
+div {
+	border: 1px solid blue;
+}
+
+/*Navigation*/
+.navigation {
+	background-color: #fff;
+}
+.navigation > .content {
+	width: 970px;
+	height: 70px;
+	margin: 0 auto;
+	padding: 0px 15px;
+}
+
+.navigation .links {
+    float: right;
+    font-family: 'Roboto', sans-serif;
+    color: #838994;
+    font-size: 16px;
+    margin-top: 25px;
+    -webkit-font-smoothing: antialiased;
+}
+.navigation .links li {
+    display: inline-block;
+    margin-left: 25px;
+}
+.navigation .links .active {
+    color: #4c5058;
+    font-weight: 500;
+}
+.navigation .links li:hover {
+    cursor: pointer;
+    color: #333333;
+}
+
+.intro {
+	background-image: url('../images/first-background.jpg');
+	background-position: 0 bottom;
+	background-repeat: no-repeat;
+	background-size: cover;
+	height: 45.938rem;
+}
+
+.intro > .content h1 {
+	color: white;
+	margin: center;
+}
+
+.intro > .content p {
+	color: white;
+	margin: center;
+}
