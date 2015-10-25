@@ -13,7 +13,9 @@ div {
 	border: 1px solid blue;
 }
 
+
 /*Navigation*/
+
 .navigation {
 	background-color: #fff;
 }
@@ -45,6 +47,10 @@ div {
     color: #333333;
 }
 
+
+
+/*Intro*/
+
 .intro {
 	background-image: url('../images/first-background.jpg');
 	background-position: 0 bottom;
@@ -56,9 +62,30 @@ div {
 .intro > .content h1 {
 	color: white;
 	margin: center;
+	text-align: center;
 }
 
-.intro > .content p {
+.intro > .content h3 {
 	color: white;
 	margin: center;
+	text-align: center;
+}
+
+.big-button {
+    text-shadow: none;
+    border-style: none;
+    border-radius: 4px;
+    padding: 16px 26px;
+    line-height: 1.33;
+    width: 15rem;
+    background-color: darkorange;
+    font-size: 16px;
+    display: block;
+    margin: 0 auto;
+    color: white;
+}
+
+.big-button :hover {
+    cursor: pointer;
+    background-color: green;
 }
